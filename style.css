@@ -12,6 +12,7 @@ header {
     background-color: #CBCBCB;
     padding: 10px;
     text-align: center;
+    min-width: 100vh;
 }
 
 nav {
@@ -64,6 +65,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 20vh;
+    min-width: 100vh;
 }
 
 .footer .images div{
@@ -107,4 +109,9 @@ footer li {
     margin-right: 10px;
     cursor: pointer;
     color: #000;
+}
+
+.section1{
+    background-image: url("/img/baixados.jpeg");
+    background-repeat: no-repeat;
 }
