@@ -56,6 +56,7 @@ nav li a{
 
 main {
     flex-grow: 1;
+    width: 100%;
 }
 
 footer {
@@ -111,7 +112,305 @@ footer li {
     color: #000;
 }
 
-.section1{
-    background-image: url("/img/baixados.jpeg");
+main .ImagemTopo{
+    background-image: url(/img/Business_Architecture_Buildings_4K_Photo_3840x2400.jpg);
     background-repeat: no-repeat;
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: top;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .ImagemTopo h1{
+    color: #000000;
+    margin-top: 0;
+}
+
+main .text h2{
+    margin: 5%;
+    font-size: 35px;
+}
+
+main .text p{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+main .Meet {
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+.card_1 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_1_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_1 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_1 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_2 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_2_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_2 img {
+    width: 394px;
+    height: 532px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_2 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_2 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_3 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_3_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_3 img {
+    width: 394px;
+    height: 532px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_3 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_3 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_4 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_4_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_4 img {
+    width: 394px;
+    height: 532px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_4 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_4 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_5 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_5_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_5 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_5 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_5 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_6 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_6_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_6 img {
+    width: 394px;
+    height: 394px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_6 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_6 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_7 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_7_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_7 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_7 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_7 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_8 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_8_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_8 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_8 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_8 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
 }
