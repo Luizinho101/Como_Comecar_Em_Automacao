@@ -1,0 +1,231 @@
+.section {
+    position: relative;
+}
+.conteiner-tela{
+    align-items: center;
+    height: 100vh; /* Altura total da viewport */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.section, .section2 {
+    width: 100%;
+  
+}
+
+.titulo {
+    margin-top: 7.57rem;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+   
+  
+    z-index: 1; 
+    text-align: center;
+    color: white; 
+    
+}
+.sub-titulo{
+    margin-top: 23.19rem;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+   
+  
+    z-index: 1;
+    text-align: center;
+    color: white; 
+}
+.titulo-descricao{
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Arial;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25rem;
+}
+.sub-titulo-descricao{
+    color: #FFF;
+    margin-bottom: 2rem;
+
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.06rem;
+
+   
+
+}
+
+.image-container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 0; 
+    height: 100%;
+    object-fit: cover; 
+}
+.botao {
+    margin-top: 2.81rem;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29.6875rem;
+    height: 5.1875rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #6B1A91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-botao {
+    background: #6B1A91;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.09rem;
+    border: none; 
+    cursor: pointer;
+}
+
+.section2{
+    position: relative;
+    background-color: white;
+}
+
+.content-container{
+    display: flex;
+}
+
+
+.image-container2{
+    margin-top: 6.19rem;
+    margin-left: 6.81rem;
+    width: 32.3125rem;
+    height: 33.75rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    }
+
+.titulo-tela2{
+    margin-top: 10.62rem;
+    margin-left: 4rem;
+    width: 50.625rem;
+    color: #000;
+
+    font-family: Arial;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12rem;
+}
+.descricao{
+    margin-left: 4rem;
+    width: 35.25rem;
+    color: #000;
+
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.06rem;
+}
+.botao2{
+    margin-left: 4rem;
+    width: 29.6875rem;
+    height: 5.1875rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #6B1A91;
+}
+.texto-botao2{
+    margin-left: 8.12rem;
+    margin-top: 1.31rem;
+    margin-right: 8.1rem;
+    background: #6B1A91;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.09rem;
+    border: none; 
+    cursor: pointer;
+    width: 29.6875rem;
+    height: 5.1875rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #6B1A91;
+        
+}
+.titulo3-descricao{
+    margin-left: 4rem;
+    margin-top: 14.19rem;
+    color: #000;
+
+    font-family: Arial;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12rem;
+}
+.container-artigo{
+    margin-left: 4rem;
+    width: 44.5rem;
+    height: 32.6875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-bottom: 10rem;
+}
+.container-artigos{
+    display: flex;
+}
+.artigo1{
+    margin-top: -1rem;
+    margin-left: 4rem;
+    width: 24.875rem;
+    height: 13.8125rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-bottom: 6rem;
+}
+.artigo2{
+    
+    margin-left: 4rem;
+    width: 24.875rem;
+    height: 13.8125rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    
+}
