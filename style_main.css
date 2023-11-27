@@ -22,9 +22,9 @@
     position: absolute;
    
   
-    z-index: 1; /* Garante que o título fique sobre a imagem */
+    z-index: 1; 
     text-align: center;
-    color: white; /* Adapte a cor conforme necessário para contrastar com a imagem */
+    color: white; 
     
 }
 .sub-titulo{
@@ -36,9 +36,9 @@
     position: absolute;
    
   
-    z-index: 1; /* Garante que o título fique sobre a imagem */
+    z-index: 1;
     text-align: center;
-    color: white; /* Adapte a cor conforme necessário para contrastar com a imagem */
+    color: white; 
 }
 .titulo-descricao{
     margin-left: auto;
@@ -79,9 +79,9 @@ img {
     width: 100%;
     height: auto;
     display: block;
-    z-index: 0; /* A imagem ficará atrás do texto */
+    z-index: 0; 
     height: 100%;
-    object-fit: cover; /* Garante que a imagem cubra completamente o contêiner */
+    object-fit: cover; 
 }
 .botao {
     margin-top: 2.81rem;
@@ -102,7 +102,7 @@ img {
 
 .texto-botao {
     background: #6B1A91;
-    color: white; /* Cor do texto branco */
+    color: white;
     text-align: center;
     font-family: Arial;
     font-size: 2.25rem;
@@ -110,7 +110,7 @@ img {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.09rem;
-    border: none; /* Remova a borda padrão do botão */
+    border: none; 
     cursor: pointer;
 }
 
@@ -171,7 +171,7 @@ img {
     margin-top: 1.31rem;
     margin-right: 8.1rem;
     background: #6B1A91;
-    color: white; /* Cor do texto branco */
+    color: white;
     text-align: center;
     font-family: Arial;
     font-size: 2.25rem;
@@ -179,7 +179,7 @@ img {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.09rem;
-    border: none; /* Remova a borda padrão do botão */
+    border: none; 
     cursor: pointer;
     width: 29.6875rem;
     height: 5.1875rem;
