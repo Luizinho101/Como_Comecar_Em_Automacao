@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.title_1{
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 600;
+   
+    width: 721px;
+    height: 96px;
+
+    transition: all .3s;
+    opacity: 100;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    
+}
+.container_main{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    
+
+}
+.container_paragrafo{
+    
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.primeiro_paragrafo, .segundo_paragrafo, .terceiro_paragrafo ,.primeiro_paragrafo_sub_titulo, .segundo_paragrafo_sub_titulo,
+ .terceiro_paragrafo_sub_titulo, .primeiro_paragrafo_sub_titulo2,.segundo_paragrafo_sub_titulo2,.primeiro_paragrafo_sub_titulo3
+ ,.segundo_paragrafo_sub_titulo3,.terceiro_paragrafo_sub_titulo3,.quarto_paragrafo_sub_titulo3,.primeiro_paragrafo_sub_titulo4
+ ,.segundo_paragrafo_sub_titulo4,.primeiro_paragrafo_sub_titulo4,.segundo_paragrafo_sub_titulo4,.primeiro_paragrafo_geral,.segundo_paragrafo_geral
+ ,.terceiro_paragrafo_geral,.quarto_paragrafo_geral,.quinto_paragrafo_geral{
+    color: #545454;
+    
+    line-height: 1.5;
+    font-size: 26px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    margin-bottom: 60px;
+    text-align:left;
+
+    width: 900px;
+   
+}
+.sub_titulo, .sub_titulo2,.sub_titulo3,.sub_titulo4{
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
