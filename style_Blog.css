@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -48,73 +49,65 @@ nav li {
     color: #000;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: #000;
 }
 
-.title_1{
-    font-size: 32px;
-    line-height: 1.5;
-    font-weight: 600;
-   
-    width: 721px;
-    height: 96px;
+main {
+    flex-grow: 1;
+    min-width: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
 
-    transition: all .3s;
-    opacity: 100;
-    margin: 0 auto;
-    overflow-wrap: break-word;
-    
+main a{
+    text-decoration: none;
 }
-.container_main{
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
 
+.card {
+    display: flex;
+    background: #d9d9d93a;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 2%;
 }
-.container_paragrafo{
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+
+.card .image {
+    width: 365px;
+    height: 262px;
+    background-image: url("/img/image_9d762407a3f05b02a9e9f606f27ee385_2000.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.primeiro_paragrafo, .segundo_paragrafo, .terceiro_paragrafo ,.primeiro_paragrafo_sub_titulo, .segundo_paragrafo_sub_titulo,
- .terceiro_paragrafo_sub_titulo, .primeiro_paragrafo_sub_titulo2,.segundo_paragrafo_sub_titulo2,.primeiro_paragrafo_sub_titulo3
- ,.segundo_paragrafo_sub_titulo3,.terceiro_paragrafo_sub_titulo3,.quarto_paragrafo_sub_titulo3,.primeiro_paragrafo_sub_titulo4
- ,.segundo_paragrafo_sub_titulo4,.primeiro_paragrafo_sub_titulo4,.segundo_paragrafo_sub_titulo4,.primeiro_paragrafo_geral,.segundo_paragrafo_geral
- ,.terceiro_paragrafo_geral,.quarto_paragrafo_geral,.quinto_paragrafo_geral{
-    color: #545454;
-    line-height: 1.5;
+
+.card .referencias{
+    margin-left: 3%;
+}
+
+.card .referencias h6{
     font-size: 26px;
-    margin: 0 auto;
-    overflow-wrap: break-word;
-    margin-bottom: 60px;
-    text-align:left;
-    text-align: justify;
-    width: 900px;
-}
-.sub_titulo, .sub_titulo2,.sub_titulo3,.sub_titulo4{
-    font-size: 24px;
-    margin-bottom: 32px;
-    color: black;
-    font-weight: 600;
-    line-height: 1.6;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    color: #000;
 }
 
+.card .referencias p{
+    margin-top: -50%;
+    font-size: 18px;
+    color: #000;
+}
 
 footer {
     background-color: #CBCBCB;
     padding: 10px;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
     min-width: 100vh;
 }
 
-.footer .images div{
+.footer .images div {
     display: flex;
     padding-right: 0px;
     justify-content: center;
