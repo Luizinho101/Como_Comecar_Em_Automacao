@@ -77,10 +77,41 @@ main a{
 .card .image {
     width: 365px;
     height: 262px;
-    background-image: url("/img/image_9d762407a3f05b02a9e9f606f27ee385_2000.png");
+    background-image: url("/img/Imagen_automacao.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+.card .image2 {
+    width: 365px;
+    height: 262px;
+    background-image: url("/img/Imagen_automacao2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card .image3 {
+    width: 365px;
+    height: 262px;
+    background-image: url("/img//image_9d762407a3f05b02a9e9f606f27ee385_2000.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card .image4 {
+    width: 365px;
+    height: 262px;
+    background-image: url("/img/Imagen_automacao3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card .image5 {
+    width: 365px;
+    height: 262px;
+    background-image: url("/img/automacao-de-processos.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 .card .referencias{
     margin-left: 3%;
