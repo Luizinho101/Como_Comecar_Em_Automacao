@@ -110,9 +110,6 @@ main a{
     background-size: cover;
 }
 
-
-
-
 .card .referencias{
     margin-left: 3%;
 }
@@ -123,7 +120,7 @@ main a{
 }
 
 .card .referencias p{
-    margin-top: -50%;
+    margin-top: -15%;
     font-size: 18px;
     color: #000;
 }

@@ -1,19 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #CBCBCB;
+    padding: 10px;
+    text-align: center;
+    min-width: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 18.522px;
+    flex-shrink: 0;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav li {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+}
 .container_main{
     text-align: center;
     margin: 20px;
     padding: 20px;
 }
 .title_1{
-    
     font-size: 90px;
     line-height: 1.5;
     font-weight: 600;
-   
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
-    margin-top: 200px;
-    
-    
+    margin-top: 15px;
 }
 .sub_titulo, .sub_titulo2,.sub_titulo3,.sub_titulo4,.sub_titulo5,.sub_titulo6{
     margin: 0 auto;
@@ -35,17 +91,68 @@
 }
 .paragrafo1,.paragrafo2,.paragrafo3,.paragrafo4,.paragrafo5,.paragrafo6,.paragrafo7,.paragrafo8,.paragrafo9,.paragrafo10{
     color: #545454;
-    
     line-height: 1.5;
     font-size: 26px;
-    margin: 0 auto;
+    margin-left: 15%;
     overflow-wrap: break-word;
     margin-bottom: 60px;
-    text-align:left;
-
+    text-align:justify;
+    justify-content: center;
     width: 900px;
 }
 .image{
-   margin: 80px;
-    
+    margin: 80px;
+}
+
+footer {
+    background-color: #CBCBCB;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    min-width: 100vh;
+}
+
+.footer .images div{
+    display: flex;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 18.522px;
+    flex-shrink: 0;
+}
+
+.footer .images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    gap: 38.813px;
+    flex-shrink: 0;
+    margin-left: -125%;
+}
+
+.footer .texts {
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    margin-left: 170%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer li {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #000;
 }
