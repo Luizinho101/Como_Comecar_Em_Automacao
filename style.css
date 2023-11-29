@@ -414,3 +414,79 @@ main .Meet {
     margin-right: 5%;
     font-size: 25px;
 }
+
+.card_9 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_9_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_9 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_9 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_9 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_10 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.card_10_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.card_10 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 262px;
+    margin-bottom: 2%;
+}
+
+.card_10 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.card_10 p {
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.card_11 {
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 2%;
+}
+.card_11 h5 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
